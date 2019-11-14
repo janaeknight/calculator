@@ -1,0 +1,33 @@
+body {
+    display: flex; flex-direction: row;
+    width: 99vw; min-height: 750px;
+    margin: 50px auto; overflow-x: hidden;
+    background-color: bisque; color: snow;
+}
+
+#calculator {
+    display: flex; flex-direction: column;
+    width: 400px; height: 500px;
+    background-color: black;
+}
+
+.top {
+    display: flex; flex-direction: row;
+    height: 20%; width: 100%;
+    background-color: darkslategray;
+}
+
+.bottom {
+    display: flex; flex-direction: row;
+    height: 80%; width: 100%;
+}
+
+.divide {
+    display: flex; flex-direction: row;
+    width: 100%; height: 100%;
+}
+
+.numpad {
+    width: 80%; height: 100%;
+    background-color: snow;
+}
