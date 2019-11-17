@@ -7,9 +7,9 @@ function getRes() {
 
     curRes.innerHTML = " =";
     var curRes = document.gen.input.value
-    if (curRes) {
+    if  (curRes) {
         document.gen.input.value = eval(curRes)
     }
 }
 
-    console.log(curRes);
+console.log(curRes);
