@@ -1,11 +1,15 @@
 function getRes() {
 
     let toGet = document.getElementById("toGet").value;
-    let curRes = document.getElementById("curRes"); 
+    let curProb = document.getElementById("curRes"); 
 
 
 
     curRes.innerHTML = " =";
-
-    console.log(toGet);
+    var curRes = document.gen.input.value
+    if (curRes) {
+        document.gen.input.value = eval(curRes)
+    }
 }
+
+    console.log(curRes);
