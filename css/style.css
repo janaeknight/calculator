@@ -2,7 +2,7 @@ body {
     display: flex; flex-direction: row;
     width: 99vw; min-height: 750px;
     margin: 50px auto; overflow-x: hidden;
-    background-color: bisque; color: snow;
+    background-color: black; color: snow;
 }
 
 #calculator {
