@@ -7,58 +7,26 @@
     <title>Calculator</title>
     <link href="css/flex.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <script src="java/javascript.js"></script>
 </head> 
 <body>
-       <div class="db4"></div> 
-       <div class="db6">
-            <div id="calculator">
-                <div class="top">
-                    <div class="db3">
-                        <h1 id="curRes"></h1>
-                    </div>
-                    <div class="db7">
-                        <input type="input" id="toGet">
-                    </div>
-                </div>
-                <div class="bottom">
-                    <form id="gen">
-                        <div class="divide">
-                        <div class="numpad">
-                            <div class="row">
-                                <button onClick="insert(7)">7</button>
-                                <button onClick="insert(8)">8</button>
-                                <button onClick="insert(9)">9</button>
-                            </div>
-                            <div class="row">
-                                <button onClick="insert(4)">4</button>
-                                <button onClick="insert(5)">5</button>
-                                <button onClick="insert6()">6</button>
-                            </div>
-                            <div class="row">
-                                <button onClick="insert(1)">1</button>
-                                <button onClick="insert(2)">2</button>
-                                <button onClick="insert(3)">3</button>
-                            </div>
-                            <div class="row">
-                                <button onClick="insert(0)">0</button>
-                                <button onClick="insert(.)">.</button>
-                                <button onclick="getRes()">=</button>
-                            </div>
-                        </div>
-                        <div class="oppad">
 
-                            <button id="opClear">c</button>
-                            <button id="opDiv">÷</button>
-                            <button id="opMul">x</button>
-                            <button id="opSub">-</button>
-                            <button id="opAdd">+</button>
-
-                        </div>
-                        </div>   
-                    </form>
-                </div>
-            </div>
-       </div>
+    <form name="busy" id="">
+        <input type="input" id="input">
+        <span value="1" onClick="busy.input.value += '1' ">1</span>
+        <span value="2" onClick="busy.input.value += '2' ">2</span>
+        <span value="3" onClick="busy.input.value += '3' ">3</span>
+        <span value="4" onClick="busy.input.value += '4' ">4</span>
+        <span value="5" onClick="busy.input.value += '5' ">5</span>
+        <span value="6" onClick="busy.input.value += '6' ">6</span>
+        <span value="7" onClick="busy.input.value += '7' ">7</span>
+        <span value="8" onClick="busy.input.value += '8' ">8</span>
+        <span value="9" onClick="busy.input.value += '9' ">9</span>
+        <span value="0" onClick="busy.input.value += '0' ">0</span>
+        <span value="+" onClick="busy.input.value += '+' ">+</span>
+        <span value="-" onClick="busy.input.value += '-' ">-</span>
+        <span value="*" onClick="busy.input.value += '*' ">x</span>
+        <span value="/" onClick="busy.input.value += '/' ">/</span>
+        <span value="=" onClick="busy.input.value = eval(busy.input.value)">=</span>
+    </form>
 </body>
 </html>
