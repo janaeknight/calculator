@@ -5,7 +5,7 @@ body {
     background-color: lightgray; color: snow;
 }
 
-#busy {
+#calculator {
     display: flex; flex-direction: row;
     flex-wrap: wrap;
     width: 333px; height: 666px;
